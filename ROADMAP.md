@@ -1,6 +1,6 @@
 # Synthstudio — Entwicklungs-Roadmap
 
-> Stand: März 2026 | Aktuelle Version: v1.11.2
+> Stand: März 2026 | Aktuelle Version: v1.11.3
 
 ---
 
@@ -113,6 +113,13 @@
 ---
 
 ## Changelog Highlights
+
+### v1.11.3 (28. März 2026)
+- Vollständige MIDI-Controller-Preset-Dateien hinzugefügt (APC40 MK2, Launchpad Pro, Maschine, BeatStep Pro, nanoKONTROL2, Generic 17-Fader)
+- Tastaturkürzel-Profile hinzugefügt (Standard, FL Studio, Ableton, Logic Pro)
+- Dokumentation für BPM Auto-Sync, FL-Studio-inspirierte Features und Keyboard-Shortcuts vervollständigt
+- Preset-Format-Referenz und Mapping-Key-Namespace-Dokumentation erstellt
+- MIDI-Assignments und Keyboard-Shortcuts Docs aktualisiert mit Links zu Preset-Dateien
 
 ### v1.11.2 (27. März 2026)
 - Bugfixes und Performance-Verbesserungen
