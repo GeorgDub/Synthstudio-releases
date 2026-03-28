@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "controller": "Generic 17-Fader Controller",
+  "description": "Generisches Mapping für einen Controller mit 17 Fadern (16 Kanäle + Master), 8 Knobs und grundlegenden Transport-Buttons. Kompatibel mit den meisten einfachen MIDI-Fadern.",
+  "midiChannels": {
+    "global": 1
+  },
+  "mappings": {
+    "transport.play":   { "type": "cc", "cc": 115, "channel": 1, "mode": "trigger" },
+    "transport.stop":   { "type": "cc", "cc": 116, "channel": 1, "mode": "trigger" },
+    "transport.record": { "type": "cc", "cc": 117, "channel": 1, "mode": "trigger" },
+    "transport.loop":   { "type": "cc", "cc": 118, "channel": 1, "mode": "toggle" },
+
+    "mixer.volume.1":      { "type": "cc", "cc": 1,  "channel": 1 },
+    "mixer.volume.2":      { "type": "cc", "cc": 2,  "channel": 1 },
+    "mixer.volume.3":      { "type": "cc", "cc": 3,  "channel": 1 },
+    "mixer.volume.4":      { "type": "cc", "cc": 4,  "channel": 1 },
+    "mixer.volume.5":      { "type": "cc", "cc": 5,  "channel": 1 },
+    "mixer.volume.6":      { "type": "cc", "cc": 6,  "channel": 1 },
+    "mixer.volume.7":      { "type": "cc", "cc": 7,  "channel": 1 },
+    "mixer.volume.8":      { "type": "cc", "cc": 8,  "channel": 1 },
+    "mixer.volume.9":      { "type": "cc", "cc": 9,  "channel": 1 },
+    "mixer.volume.10":     { "type": "cc", "cc": 10, "channel": 1 },
+    "mixer.volume.11":     { "type": "cc", "cc": 11, "channel": 1 },
+    "mixer.volume.12":     { "type": "cc", "cc": 12, "channel": 1 },
+    "mixer.volume.13":     { "type": "cc", "cc": 13, "channel": 1 },
+    "mixer.volume.14":     { "type": "cc", "cc": 14, "channel": 1 },
+    "mixer.volume.15":     { "type": "cc", "cc": 15, "channel": 1 },
+    "mixer.volume.16":     { "type": "cc", "cc": 16, "channel": 1 },
+    "mixer.volume.master": { "type": "cc", "cc": 17, "channel": 1 },
+
+    "synth.filter.cutoff":    { "type": "cc", "cc": 74, "channel": 1 },
+    "synth.filter.resonance": { "type": "cc", "cc": 71, "channel": 1 },
+    "synth.adsr.attack":      { "type": "cc", "cc": 73, "channel": 1 },
+    "synth.adsr.decay":       { "type": "cc", "cc": 75, "channel": 1 },
+    "synth.adsr.sustain":     { "type": "cc", "cc": 64, "channel": 1 },
+    "synth.adsr.release":     { "type": "cc", "cc": 72, "channel": 1 },
+    "synth.lfo.rate":         { "type": "cc", "cc": 12, "channel": 1 },
+    "synth.lfo.depth":        { "type": "cc", "cc": 92, "channel": 1 }
+  },
+  "feedback": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "controller": "Arturia BeatStep Pro",
+  "description": "Standard Mapping für den Arturia BeatStep Pro. Sequencer 1 (Steps 1–16) für Pattern-Steps, Sequencer 2 für Mixer-Kontrolle, Drum-Sektion für Scene-Launch.",
+  "midiChannels": {
+    "seq1": 1,
+    "seq2": 2,
+    "drum": 10
+  },
+  "mappings": {
+    "transport.play":    { "type": "cc", "cc": 94, "channel": 1, "mode": "trigger" },
+    "transport.stop":    { "type": "cc", "cc": 93, "channel": 1, "mode": "trigger" },
+    "transport.record":  { "type": "cc", "cc": 95, "channel": 1, "mode": "trigger" },
+    "transport.tapTempo":{ "type": "cc", "cc": 88, "channel": 1, "mode": "trigger" },
+
+    "pattern.step.1":  { "type": "note", "note": 44, "channel": 10, "mode": "toggle" },
+    "pattern.step.2":  { "type": "note", "note": 45, "channel": 10, "mode": "toggle" },
+    "pattern.step.3":  { "type": "note", "note": 46, "channel": 10, "mode": "toggle" },
+    "pattern.step.4":  { "type": "note", "note": 47, "channel": 10, "mode": "toggle" },
+    "pattern.step.5":  { "type": "note", "note": 48, "channel": 10, "mode": "toggle" },
+    "pattern.step.6":  { "type": "note", "note": 49, "channel": 10, "mode": "toggle" },
+    "pattern.step.7":  { "type": "note", "note": 50, "channel": 10, "mode": "toggle" },
+    "pattern.step.8":  { "type": "note", "note": 51, "channel": 10, "mode": "toggle" },
+    "pattern.step.9":  { "type": "note", "note": 52, "channel": 10, "mode": "toggle" },
+    "pattern.step.10": { "type": "note", "note": 53, "channel": 10, "mode": "toggle" },
+    "pattern.step.11": { "type": "note", "note": 54, "channel": 10, "mode": "toggle" },
+    "pattern.step.12": { "type": "note", "note": 55, "channel": 10, "mode": "toggle" },
+    "pattern.step.13": { "type": "note", "note": 56, "channel": 10, "mode": "toggle" },
+    "pattern.step.14": { "type": "note", "note": 57, "channel": 10, "mode": "toggle" },
+    "pattern.step.15": { "type": "note", "note": 58, "channel": 10, "mode": "toggle" },
+    "pattern.step.16": { "type": "note", "note": 59, "channel": 10, "mode": "toggle" },
+
+    "mixer.volume.1": { "type": "cc", "cc": 18, "channel": 1 },
+    "mixer.volume.2": { "type": "cc", "cc": 19, "channel": 1 },
+    "mixer.volume.3": { "type": "cc", "cc": 20, "channel": 1 },
+    "mixer.volume.4": { "type": "cc", "cc": 21, "channel": 1 },
+    "mixer.volume.5": { "type": "cc", "cc": 22, "channel": 1 },
+    "mixer.volume.6": { "type": "cc", "cc": 23, "channel": 1 },
+    "mixer.volume.7": { "type": "cc", "cc": 24, "channel": 1 },
+    "mixer.volume.8": { "type": "cc", "cc": 25, "channel": 1 },
+
+    "synth.filter.cutoff":    { "type": "cc", "cc": 74, "channel": 1 },
+    "synth.filter.resonance": { "type": "cc", "cc": 71, "channel": 1 },
+    "synth.adsr.attack":      { "type": "cc", "cc": 73, "channel": 1 },
+    "synth.adsr.decay":       { "type": "cc", "cc": 75, "channel": 1 },
+    "synth.adsr.sustain":     { "type": "cc", "cc": 64, "channel": 1 },
+    "synth.adsr.release":     { "type": "cc", "cc": 72, "channel": 1 },
+    "synth.lfo.rate":         { "type": "cc", "cc": 12, "channel": 1 },
+    "synth.lfo.depth":        { "type": "cc", "cc": 92, "channel": 1 },
+
+    "scene.launch.1":  { "type": "note", "note": 36, "channel": 10, "mode": "trigger" },
+    "scene.launch.2":  { "type": "note", "note": 37, "channel": 10, "mode": "trigger" },
+    "scene.launch.3":  { "type": "note", "note": 38, "channel": 10, "mode": "trigger" },
+    "scene.launch.4":  { "type": "note", "note": 39, "channel": 10, "mode": "trigger" },
+    "scene.launch.5":  { "type": "note", "note": 40, "channel": 10, "mode": "trigger" },
+    "scene.launch.6":  { "type": "note", "note": 41, "channel": 10, "mode": "trigger" },
+    "scene.launch.7":  { "type": "note", "note": 42, "channel": 10, "mode": "trigger" },
+    "scene.launch.8":  { "type": "note", "note": 43, "channel": 10, "mode": "trigger" }
+  },
+  "feedback": {
+    "enabled": true,
+    "colors": {
+      "pattern.step.active":  { "color": "red" },
+      "scene.active":         { "color": "green" },
+      "transport.playing":    { "color": "green" },
+      "transport.recording":  { "color": "red" }
+    }
+  }
+}
