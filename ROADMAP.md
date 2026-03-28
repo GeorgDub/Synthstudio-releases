@@ -1,6 +1,6 @@
 # Synthstudio — Entwicklungs-Roadmap
 
-> Stand: März 2026 | Aktuelle Version: v1.11.3
+> Stand: März 2026 | Aktuelle Version: v1.11.5
 
 ---
 
@@ -113,6 +113,13 @@
 ---
 
 ## Changelog Highlights
+
+### v1.11.5 (28. März 2026)
+- Versionsnummern in README und ROADMAP aktualisiert
+- Dokumentation auf neuesten Stand gebracht
+
+### v1.11.4 (28. März 2026)
+- Wartungsrelease
 
 ### v1.11.3 (28. März 2026)
 - Vollständige MIDI-Controller-Preset-Dateien hinzugefügt (APC40 MK2, Launchpad Pro, Maschine, BeatStep Pro, nanoKONTROL2, Generic 17-Fader)

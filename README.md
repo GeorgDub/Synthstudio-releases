@@ -4,7 +4,7 @@
 
 ## Aktuelle Version
 
-**v1.11.3** — [Download](https://github.com/GeorgDub/Synthstudio-releases/releases/tag/v1.11.3)
+**v1.11.5** — [Download](https://github.com/GeorgDub/Synthstudio-releases/releases/tag/v1.11.5)
 
 ## Downloads
 
