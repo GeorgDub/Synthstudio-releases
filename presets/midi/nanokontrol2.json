@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "controller": "Korg nanoKONTROL2",
+  "description": "Standard Mapping für den Korg nanoKONTROL2. 8 Fader, 8 Knobs sowie Mute/Solo/Record-Buttons pro Track und Transport-Steuerung.",
+  "midiChannels": {
+    "global": 1
+  },
+  "mappings": {
+    "transport.rewind":      { "type": "cc", "cc": 43, "channel": 1, "mode": "trigger" },
+    "transport.forward":     { "type": "cc", "cc": 44, "channel": 1, "mode": "trigger" },
+    "transport.stop":        { "type": "cc", "cc": 42, "channel": 1, "mode": "trigger" },
+    "transport.play":        { "type": "cc", "cc": 41, "channel": 1, "mode": "trigger" },
+    "transport.record":      { "type": "cc", "cc": 45, "channel": 1, "mode": "trigger" },
+    "transport.loop":        { "type": "cc", "cc": 46, "channel": 1, "mode": "toggle" },
+    "transport.prevMarker":  { "type": "cc", "cc": 61, "channel": 1, "mode": "trigger" },
+    "transport.nextMarker":  { "type": "cc", "cc": 62, "channel": 1, "mode": "trigger" },
+    "transport.setMarker":   { "type": "cc", "cc": 60, "channel": 1, "mode": "trigger" },
+
+    "mixer.volume.1": { "type": "cc", "cc": 0,  "channel": 1 },
+    "mixer.volume.2": { "type": "cc", "cc": 1,  "channel": 1 },
+    "mixer.volume.3": { "type": "cc", "cc": 2,  "channel": 1 },
+    "mixer.volume.4": { "type": "cc", "cc": 3,  "channel": 1 },
+    "mixer.volume.5": { "type": "cc", "cc": 4,  "channel": 1 },
+    "mixer.volume.6": { "type": "cc", "cc": 5,  "channel": 1 },
+    "mixer.volume.7": { "type": "cc", "cc": 6,  "channel": 1 },
+    "mixer.volume.8": { "type": "cc", "cc": 7,  "channel": 1 },
+
+    "synth.filter.cutoff":    { "type": "cc", "cc": 16, "channel": 1 },
+    "synth.filter.resonance": { "type": "cc", "cc": 17, "channel": 1 },
+    "synth.adsr.attack":      { "type": "cc", "cc": 18, "channel": 1 },
+    "synth.adsr.decay":       { "type": "cc", "cc": 19, "channel": 1 },
+    "synth.adsr.sustain":     { "type": "cc", "cc": 20, "channel": 1 },
+    "synth.adsr.release":     { "type": "cc", "cc": 21, "channel": 1 },
+    "synth.lfo.rate":         { "type": "cc", "cc": 22, "channel": 1 },
+    "synth.lfo.depth":        { "type": "cc", "cc": 23, "channel": 1 },
+
+    "mixer.mute.1": { "type": "cc", "cc": 48, "channel": 1, "mode": "toggle" },
+    "mixer.mute.2": { "type": "cc", "cc": 49, "channel": 1, "mode": "toggle" },
+    "mixer.mute.3": { "type": "cc", "cc": 50, "channel": 1, "mode": "toggle" },
+    "mixer.mute.4": { "type": "cc", "cc": 51, "channel": 1, "mode": "toggle" },
+    "mixer.mute.5": { "type": "cc", "cc": 52, "channel": 1, "mode": "toggle" },
+    "mixer.mute.6": { "type": "cc", "cc": 53, "channel": 1, "mode": "toggle" },
+    "mixer.mute.7": { "type": "cc", "cc": 54, "channel": 1, "mode": "toggle" },
+    "mixer.mute.8": { "type": "cc", "cc": 55, "channel": 1, "mode": "toggle" },
+
+    "mixer.solo.1": { "type": "cc", "cc": 32, "channel": 1, "mode": "toggle" },
+    "mixer.solo.2": { "type": "cc", "cc": 33, "channel": 1, "mode": "toggle" },
+    "mixer.solo.3": { "type": "cc", "cc": 34, "channel": 1, "mode": "toggle" },
+    "mixer.solo.4": { "type": "cc", "cc": 35, "channel": 1, "mode": "toggle" },
+    "mixer.solo.5": { "type": "cc", "cc": 36, "channel": 1, "mode": "toggle" },
+    "mixer.solo.6": { "type": "cc", "cc": 37, "channel": 1, "mode": "toggle" },
+    "mixer.solo.7": { "type": "cc", "cc": 38, "channel": 1, "mode": "toggle" },
+    "mixer.solo.8": { "type": "cc", "cc": 39, "channel": 1, "mode": "toggle" },
+
+    "sequencer.record.1": { "type": "cc", "cc": 64, "channel": 1, "mode": "toggle" },
+    "sequencer.record.2": { "type": "cc", "cc": 65, "channel": 1, "mode": "toggle" },
+    "sequencer.record.3": { "type": "cc", "cc": 66, "channel": 1, "mode": "toggle" },
+    "sequencer.record.4": { "type": "cc", "cc": 67, "channel": 1, "mode": "toggle" },
+    "sequencer.record.5": { "type": "cc", "cc": 68, "channel": 1, "mode": "toggle" },
+    "sequencer.record.6": { "type": "cc", "cc": 69, "channel": 1, "mode": "toggle" },
+    "sequencer.record.7": { "type": "cc", "cc": 70, "channel": 1, "mode": "toggle" },
+    "sequencer.record.8": { "type": "cc", "cc": 71, "channel": 1, "mode": "toggle" }
+  },
+  "feedback": {
+    "enabled": false,
+    "note": "nanoKONTROL2 hat keine LED-Feedback-Unterstützung in diesem Modus."
+  }
+}
