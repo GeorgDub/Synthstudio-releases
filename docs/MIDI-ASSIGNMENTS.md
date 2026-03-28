@@ -161,16 +161,16 @@ Mapping-Typen:
 
 ---
 
-## Controller-Presets (geplant)
+## Controller-Presets
 
 | Controller | Preset-Name | Datei |
 |---|---|---|
-| Akai APC40 MK2 | `apc40mk2.json` | — |
-| Novation Launchpad Pro | `launchpad-pro.json` | — |
-| Native Instruments Maschine | `maschine.json` | — |
-| Arturia BeatStep Pro | `beatstep-pro.json` | — |
-| Korg nanoKontrol2 | `nanokontrol2.json` | — |
-| Generic MIDI (17 Fader) | `generic-17fader.json` | — |
+| Akai APC40 MK2 | `apc40mk2.json` | [presets/midi/apc40mk2.json](../presets/midi/apc40mk2.json) |
+| Novation Launchpad Pro | `launchpad-pro.json` | [presets/midi/launchpad-pro.json](../presets/midi/launchpad-pro.json) |
+| Native Instruments Maschine | `maschine.json` | [presets/midi/maschine.json](../presets/midi/maschine.json) |
+| Arturia BeatStep Pro | `beatstep-pro.json` | [presets/midi/beatstep-pro.json](../presets/midi/beatstep-pro.json) |
+| Korg nanoKONTROL2 | `nanokontrol2.json` | [presets/midi/nanokontrol2.json](../presets/midi/nanokontrol2.json) |
+| Generic MIDI (17 Fader) | `generic-17fader.json` | [presets/midi/generic-17fader.json](../presets/midi/generic-17fader.json) |
 
 ---
 

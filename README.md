@@ -20,6 +20,13 @@ Alle Releases sind unter [Releases](https://github.com/GeorgDub/Synthstudio-rele
 | [docs/BPM-AUTOSYNC.md](./docs/BPM-AUTOSYNC.md) | BPM Auto-Sync zwischen Patterns |
 | [docs/FL-STUDIO-INSPIRED-FEATURES.md](./docs/FL-STUDIO-INSPIRED-FEATURES.md) | Inspirierte Features aus FL Studio und anderen DAWs |
 
+## Presets
+
+| Verzeichnis | Beschreibung |
+|---|---|
+| [presets/midi/](./presets/midi/) | MIDI-Controller-Preset-Dateien (APC40 MK2, Launchpad Pro, Maschine, BeatStep Pro, nanoKONTROL2, Generic) |
+| [presets/shortcuts/](./presets/shortcuts/) | Tastaturkürzel-Profile (Standard, FL Studio, Ableton, Logic Pro) |
+
 ## Systemanforderungen
 
 - Windows 10 / 11 (64-bit)

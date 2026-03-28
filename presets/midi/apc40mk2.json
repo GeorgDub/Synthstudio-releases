@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "controller": "Akai APC40 MK2",
+  "description": "Standard Mapping für den Akai APC40 MK2. Fader, Knobs und Transport-Buttons werden automatisch zugewiesen.",
+  "midiChannels": {
+    "tracks": [1, 2, 3, 4, 5, 6, 7, 8],
+    "master": 9,
+    "global": 1
+  },
+  "mappings": {
+    "transport.play":    { "type": "note", "note": 91, "channel": 1 },
+    "transport.stop":    { "type": "note", "note": 92, "channel": 1 },
+    "transport.record":  { "type": "note", "note": 93, "channel": 1 },
+    "transport.tapTempo":{ "type": "note", "note": 99, "channel": 1 },
+    "transport.loop":    { "type": "note", "note": 98, "channel": 1 },
+
+    "mixer.volume.1":  { "type": "cc", "cc": 7,  "channel": 1 },
+    "mixer.volume.2":  { "type": "cc", "cc": 7,  "channel": 2 },
+    "mixer.volume.3":  { "type": "cc", "cc": 7,  "channel": 3 },
+    "mixer.volume.4":  { "type": "cc", "cc": 7,  "channel": 4 },
+    "mixer.volume.5":  { "type": "cc", "cc": 7,  "channel": 5 },
+    "mixer.volume.6":  { "type": "cc", "cc": 7,  "channel": 6 },
+    "mixer.volume.7":  { "type": "cc", "cc": 7,  "channel": 7 },
+    "mixer.volume.8":  { "type": "cc", "cc": 7,  "channel": 8 },
+    "mixer.volume.master": { "type": "cc", "cc": 14, "channel": 9 },
+
+    "mixer.pan.1": { "type": "cc", "cc": 15, "channel": 1 },
+    "mixer.pan.2": { "type": "cc", "cc": 15, "channel": 2 },
+    "mixer.pan.3": { "type": "cc", "cc": 15, "channel": 3 },
+    "mixer.pan.4": { "type": "cc", "cc": 15, "channel": 4 },
+    "mixer.pan.5": { "type": "cc", "cc": 15, "channel": 5 },
+    "mixer.pan.6": { "type": "cc", "cc": 15, "channel": 6 },
+    "mixer.pan.7": { "type": "cc", "cc": 15, "channel": 7 },
+    "mixer.pan.8": { "type": "cc", "cc": 15, "channel": 8 },
+
+    "mixer.send.a.1": { "type": "cc", "cc": 17, "channel": 1 },
+    "mixer.send.a.2": { "type": "cc", "cc": 17, "channel": 2 },
+    "mixer.send.a.3": { "type": "cc", "cc": 17, "channel": 3 },
+    "mixer.send.a.4": { "type": "cc", "cc": 17, "channel": 4 },
+    "mixer.send.a.5": { "type": "cc", "cc": 17, "channel": 5 },
+    "mixer.send.a.6": { "type": "cc", "cc": 17, "channel": 6 },
+    "mixer.send.a.7": { "type": "cc", "cc": 17, "channel": 7 },
+    "mixer.send.a.8": { "type": "cc", "cc": 17, "channel": 8 },
+
+    "mixer.send.b.1": { "type": "cc", "cc": 18, "channel": 1 },
+    "mixer.send.b.2": { "type": "cc", "cc": 18, "channel": 2 },
+    "mixer.send.b.3": { "type": "cc", "cc": 18, "channel": 3 },
+    "mixer.send.b.4": { "type": "cc", "cc": 18, "channel": 4 },
+    "mixer.send.b.5": { "type": "cc", "cc": 18, "channel": 5 },
+    "mixer.send.b.6": { "type": "cc", "cc": 18, "channel": 6 },
+    "mixer.send.b.7": { "type": "cc", "cc": 18, "channel": 7 },
+    "mixer.send.b.8": { "type": "cc", "cc": 18, "channel": 8 },
+
+    "mixer.mute.1": { "type": "note", "note": 50, "channel": 1, "mode": "toggle" },
+    "mixer.mute.2": { "type": "note", "note": 50, "channel": 2, "mode": "toggle" },
+    "mixer.mute.3": { "type": "note", "note": 50, "channel": 3, "mode": "toggle" },
+    "mixer.mute.4": { "type": "note", "note": 50, "channel": 4, "mode": "toggle" },
+    "mixer.mute.5": { "type": "note", "note": 50, "channel": 5, "mode": "toggle" },
+    "mixer.mute.6": { "type": "note", "note": 50, "channel": 6, "mode": "toggle" },
+    "mixer.mute.7": { "type": "note", "note": 50, "channel": 7, "mode": "toggle" },
+    "mixer.mute.8": { "type": "note", "note": 50, "channel": 8, "mode": "toggle" },
+
+    "mixer.solo.1": { "type": "note", "note": 54, "channel": 1, "mode": "toggle" },
+    "mixer.solo.2": { "type": "note", "note": 54, "channel": 2, "mode": "toggle" },
+    "mixer.solo.3": { "type": "note", "note": 54, "channel": 3, "mode": "toggle" },
+    "mixer.solo.4": { "type": "note", "note": 54, "channel": 4, "mode": "toggle" },
+    "mixer.solo.5": { "type": "note", "note": 54, "channel": 5, "mode": "toggle" },
+    "mixer.solo.6": { "type": "note", "note": 54, "channel": 6, "mode": "toggle" },
+    "mixer.solo.7": { "type": "note", "note": 54, "channel": 7, "mode": "toggle" },
+    "mixer.solo.8": { "type": "note", "note": 54, "channel": 8, "mode": "toggle" },
+
+    "synth.filter.cutoff":    { "type": "cc", "cc": 16, "channel": 9 },
+    "synth.filter.resonance": { "type": "cc", "cc": 19, "channel": 9 },
+    "synth.adsr.attack":      { "type": "cc", "cc": 20, "channel": 9 },
+    "synth.adsr.decay":       { "type": "cc", "cc": 21, "channel": 9 },
+    "synth.adsr.sustain":     { "type": "cc", "cc": 22, "channel": 9 },
+    "synth.adsr.release":     { "type": "cc", "cc": 23, "channel": 9 },
+    "synth.lfo.rate":         { "type": "cc", "cc": 24, "channel": 9 },
+    "synth.lfo.depth":        { "type": "cc", "cc": 25, "channel": 9 },
+
+    "pattern.launch.1": { "type": "note", "note": 56, "channel": 1, "mode": "trigger" },
+    "pattern.launch.2": { "type": "note", "note": 57, "channel": 1, "mode": "trigger" },
+    "pattern.launch.3": { "type": "note", "note": 58, "channel": 1, "mode": "trigger" },
+    "pattern.launch.4": { "type": "note", "note": 59, "channel": 1, "mode": "trigger" },
+    "pattern.launch.5": { "type": "note", "note": 60, "channel": 1, "mode": "trigger" },
+    "pattern.launch.6": { "type": "note", "note": 61, "channel": 1, "mode": "trigger" },
+    "pattern.launch.7": { "type": "note", "note": 62, "channel": 1, "mode": "trigger" },
+    "pattern.launch.8": { "type": "note", "note": 63, "channel": 1, "mode": "trigger" },
+
+    "scene.launch.1": { "type": "note", "note": 82, "channel": 1, "mode": "trigger" },
+    "scene.launch.2": { "type": "note", "note": 83, "channel": 1, "mode": "trigger" },
+    "scene.launch.3": { "type": "note", "note": 84, "channel": 1, "mode": "trigger" },
+    "scene.launch.4": { "type": "note", "note": 85, "channel": 1, "mode": "trigger" },
+    "scene.launch.5": { "type": "note", "note": 86, "channel": 1, "mode": "trigger" }
+  },
+  "feedback": {
+    "enabled": true,
+    "colors": {
+      "mixer.mute.active":    { "note": 50, "velocity": 5 },
+      "mixer.solo.active":    { "note": 54, "velocity": 21 },
+      "pattern.active":       { "velocity": 21 },
+      "scene.active":         { "velocity": 122 },
+      "transport.playing":    { "note": 91, "velocity": 122 },
+      "transport.recording":  { "note": 93, "velocity": 5 }
+    }
+  }
+}

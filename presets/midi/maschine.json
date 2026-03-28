@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "controller": "Native Instruments Maschine MK3",
+  "description": "Standard Mapping für Native Instruments Maschine MK3. 16 Pads für Pattern-Launch, 8 Knobs für Synth-Parameter, Transport-Buttons.",
+  "midiChannels": {
+    "global": 1,
+    "pads": 10
+  },
+  "mappings": {
+    "transport.play":    { "type": "note", "note": 118, "channel": 1, "mode": "trigger" },
+    "transport.stop":    { "type": "note", "note": 117, "channel": 1, "mode": "trigger" },
+    "transport.record":  { "type": "note", "note": 119, "channel": 1, "mode": "trigger" },
+    "transport.loop":    { "type": "note", "note": 116, "channel": 1, "mode": "toggle" },
+    "transport.tapTempo":{ "type": "note", "note": 115, "channel": 1, "mode": "trigger" },
+    "edit.undo":         { "type": "note", "note": 85,  "channel": 1, "mode": "trigger" },
+    "edit.redo":         { "type": "note", "note": 86,  "channel": 1, "mode": "trigger" },
+
+    "pattern.launch.1":  { "type": "note", "note": 36, "channel": 10, "mode": "trigger" },
+    "pattern.launch.2":  { "type": "note", "note": 37, "channel": 10, "mode": "trigger" },
+    "pattern.launch.3":  { "type": "note", "note": 38, "channel": 10, "mode": "trigger" },
+    "pattern.launch.4":  { "type": "note", "note": 39, "channel": 10, "mode": "trigger" },
+    "pattern.launch.5":  { "type": "note", "note": 40, "channel": 10, "mode": "trigger" },
+    "pattern.launch.6":  { "type": "note", "note": 41, "channel": 10, "mode": "trigger" },
+    "pattern.launch.7":  { "type": "note", "note": 42, "channel": 10, "mode": "trigger" },
+    "pattern.launch.8":  { "type": "note", "note": 43, "channel": 10, "mode": "trigger" },
+    "pattern.launch.9":  { "type": "note", "note": 44, "channel": 10, "mode": "trigger" },
+    "pattern.launch.10": { "type": "note", "note": 45, "channel": 10, "mode": "trigger" },
+    "pattern.launch.11": { "type": "note", "note": 46, "channel": 10, "mode": "trigger" },
+    "pattern.launch.12": { "type": "note", "note": 47, "channel": 10, "mode": "trigger" },
+    "pattern.launch.13": { "type": "note", "note": 48, "channel": 10, "mode": "trigger" },
+    "pattern.launch.14": { "type": "note", "note": 49, "channel": 10, "mode": "trigger" },
+    "pattern.launch.15": { "type": "note", "note": 50, "channel": 10, "mode": "trigger" },
+    "pattern.launch.16": { "type": "note", "note": 51, "channel": 10, "mode": "trigger" },
+
+    "synth.filter.cutoff":    { "type": "cc", "cc": 74, "channel": 1 },
+    "synth.filter.resonance": { "type": "cc", "cc": 71, "channel": 1 },
+    "synth.adsr.attack":      { "type": "cc", "cc": 73, "channel": 1 },
+    "synth.adsr.decay":       { "type": "cc", "cc": 75, "channel": 1 },
+    "synth.adsr.sustain":     { "type": "cc", "cc": 64, "channel": 1 },
+    "synth.adsr.release":     { "type": "cc", "cc": 72, "channel": 1 },
+    "synth.lfo.rate":         { "type": "cc", "cc": 12, "channel": 1 },
+    "synth.lfo.depth":        { "type": "cc", "cc": 92, "channel": 1 },
+
+    "mixer.volume.master": { "type": "cc", "cc": 7, "channel": 1 },
+
+    "mixer.mute.1":  { "type": "note", "note": 52, "channel": 10, "mode": "toggle" },
+    "mixer.mute.2":  { "type": "note", "note": 53, "channel": 10, "mode": "toggle" },
+    "mixer.mute.3":  { "type": "note", "note": 54, "channel": 10, "mode": "toggle" },
+    "mixer.mute.4":  { "type": "note", "note": 55, "channel": 10, "mode": "toggle" },
+    "mixer.mute.5":  { "type": "note", "note": 56, "channel": 10, "mode": "toggle" },
+    "mixer.mute.6":  { "type": "note", "note": 57, "channel": 10, "mode": "toggle" },
+    "mixer.mute.7":  { "type": "note", "note": 58, "channel": 10, "mode": "toggle" },
+    "mixer.mute.8":  { "type": "note", "note": 59, "channel": 10, "mode": "toggle" }
+  },
+  "feedback": {
+    "enabled": true,
+    "colors": {
+      "pattern.active":       { "color": [0, 127, 0] },
+      "pattern.queued":       { "color": [127, 64, 0] },
+      "mixer.mute.active":    { "color": [127, 0, 0] },
+      "transport.playing":    { "color": [0, 127, 0] },
+      "transport.recording":  { "color": [127, 0, 0] }
+    }
+  }
+}

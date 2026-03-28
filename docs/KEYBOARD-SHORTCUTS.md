@@ -232,12 +232,12 @@ Velocity: 100 (fest) oder via Shift-Taste (soft: 50)
 
 ## Vordefinierte Shortcut-Profile
 
-| Profil | Beschreibung |
-|---|---|
-| **Standard** | Synthstudio-Standard-Shortcuts |
-| **FL Studio** | FL Studio-kompatible Shortcuts |
-| **Ableton** | Ableton Live-kompatible Shortcuts |
-| **Logic Pro** | Logic Pro-kompatible Shortcuts |
+| Profil | Beschreibung | Datei |
+|---|---|---|
+| **Standard** | Synthstudio-Standard-Shortcuts | [presets/shortcuts/standard.json](../presets/shortcuts/standard.json) |
+| **FL Studio** | FL Studio-kompatible Shortcuts | [presets/shortcuts/fl-studio.json](../presets/shortcuts/fl-studio.json) |
+| **Ableton** | Ableton Live-kompatible Shortcuts | [presets/shortcuts/ableton.json](../presets/shortcuts/ableton.json) |
+| **Logic Pro** | Logic Pro-kompatible Shortcuts | [presets/shortcuts/logic-pro.json](../presets/shortcuts/logic-pro.json) |
 
 ---
 

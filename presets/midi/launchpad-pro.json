@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "controller": "Novation Launchpad Pro MK3",
+  "description": "Standard Mapping für die Novation Launchpad Pro MK3. Das 8×8-Pad-Grid wird für Pattern-Launch und Step-Sequencer verwendet.",
+  "midiChannels": {
+    "global": 1,
+    "daw": 16
+  },
+  "layout": {
+    "grid": "8x8",
+    "topRow": "scene-launch",
+    "rightColumn": "scene-launch",
+    "bottomRow": "transport"
+  },
+  "mappings": {
+    "transport.play":   { "type": "note", "note": 116, "channel": 1, "mode": "trigger" },
+    "transport.stop":   { "type": "note", "note": 117, "channel": 1, "mode": "trigger" },
+    "transport.record": { "type": "note", "note": 118, "channel": 1, "mode": "trigger" },
+    "transport.loop":   { "type": "note", "note": 114, "channel": 1, "mode": "toggle" },
+
+    "scene.launch.1": { "type": "note", "note": 89, "channel": 1, "mode": "trigger" },
+    "scene.launch.2": { "type": "note", "note": 79, "channel": 1, "mode": "trigger" },
+    "scene.launch.3": { "type": "note", "note": 69, "channel": 1, "mode": "trigger" },
+    "scene.launch.4": { "type": "note", "note": 59, "channel": 1, "mode": "trigger" },
+    "scene.launch.5": { "type": "note", "note": 49, "channel": 1, "mode": "trigger" },
+    "scene.launch.6": { "type": "note", "note": 39, "channel": 1, "mode": "trigger" },
+    "scene.launch.7": { "type": "note", "note": 29, "channel": 1, "mode": "trigger" },
+    "scene.launch.8": { "type": "note", "note": 19, "channel": 1, "mode": "trigger" },
+
+    "pattern.grid.1":  { "type": "note", "note": 81, "channel": 1, "mode": "trigger" },
+    "pattern.grid.2":  { "type": "note", "note": 82, "channel": 1, "mode": "trigger" },
+    "pattern.grid.3":  { "type": "note", "note": 83, "channel": 1, "mode": "trigger" },
+    "pattern.grid.4":  { "type": "note", "note": 84, "channel": 1, "mode": "trigger" },
+    "pattern.grid.5":  { "type": "note", "note": 85, "channel": 1, "mode": "trigger" },
+    "pattern.grid.6":  { "type": "note", "note": 86, "channel": 1, "mode": "trigger" },
+    "pattern.grid.7":  { "type": "note", "note": 87, "channel": 1, "mode": "trigger" },
+    "pattern.grid.8":  { "type": "note", "note": 88, "channel": 1, "mode": "trigger" },
+    "pattern.grid.9":  { "type": "note", "note": 71, "channel": 1, "mode": "trigger" },
+    "pattern.grid.10": { "type": "note", "note": 72, "channel": 1, "mode": "trigger" },
+    "pattern.grid.11": { "type": "note", "note": 73, "channel": 1, "mode": "trigger" },
+    "pattern.grid.12": { "type": "note", "note": 74, "channel": 1, "mode": "trigger" },
+    "pattern.grid.13": { "type": "note", "note": 75, "channel": 1, "mode": "trigger" },
+    "pattern.grid.14": { "type": "note", "note": 76, "channel": 1, "mode": "trigger" },
+    "pattern.grid.15": { "type": "note", "note": 77, "channel": 1, "mode": "trigger" },
+    "pattern.grid.16": { "type": "note", "note": 78, "channel": 1, "mode": "trigger" },
+
+    "mixer.mute.1": { "type": "note", "note": 21, "channel": 1, "mode": "toggle" },
+    "mixer.mute.2": { "type": "note", "note": 22, "channel": 1, "mode": "toggle" },
+    "mixer.mute.3": { "type": "note", "note": 23, "channel": 1, "mode": "toggle" },
+    "mixer.mute.4": { "type": "note", "note": 24, "channel": 1, "mode": "toggle" },
+    "mixer.mute.5": { "type": "note", "note": 25, "channel": 1, "mode": "toggle" },
+    "mixer.mute.6": { "type": "note", "note": 26, "channel": 1, "mode": "toggle" },
+    "mixer.mute.7": { "type": "note", "note": 27, "channel": 1, "mode": "toggle" },
+    "mixer.mute.8": { "type": "note", "note": 28, "channel": 1, "mode": "toggle" },
+
+    "mixer.solo.1": { "type": "note", "note": 31, "channel": 1, "mode": "toggle" },
+    "mixer.solo.2": { "type": "note", "note": 32, "channel": 1, "mode": "toggle" },
+    "mixer.solo.3": { "type": "note", "note": 33, "channel": 1, "mode": "toggle" },
+    "mixer.solo.4": { "type": "note", "note": 34, "channel": 1, "mode": "toggle" },
+    "mixer.solo.5": { "type": "note", "note": 35, "channel": 1, "mode": "toggle" },
+    "mixer.solo.6": { "type": "note", "note": 36, "channel": 1, "mode": "toggle" },
+    "mixer.solo.7": { "type": "note", "note": 37, "channel": 1, "mode": "toggle" },
+    "mixer.solo.8": { "type": "note", "note": 38, "channel": 1, "mode": "toggle" }
+  },
+  "feedback": {
+    "enabled": true,
+    "colors": {
+      "mixer.mute.active":   { "color": [5, 0, 0] },
+      "mixer.solo.active":   { "color": [5, 5, 0] },
+      "pattern.active":      { "color": [0, 5, 0] },
+      "pattern.queued":      { "color": [5, 3, 0] },
+      "scene.active":        { "color": [0, 0, 5] },
+      "transport.playing":   { "color": [0, 5, 0] },
+      "transport.recording": { "color": [5, 0, 0] }
+    }
+  }
+}
